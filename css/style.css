@@ -94,12 +94,17 @@ div .text1 {
 .card{
     width: (100% / 3);
     margin: 0 auto;
+    font-size: 12px;
+}
+.card h6{
+font-size: 15px;
 }
 .card1{
    width: 30%;
     display: inline-block;
    border: 1px solid black;
     margin: 0 auto;
+    line-height: 6vh;
 }
 .card2{
     width: 30%;
@@ -108,10 +113,32 @@ div .text1 {
     margin: 0 auto;
     margin-right: 40px;
     margin-left: 40px;
+    line-height: 6vh;
 }
 .card3{
     width: 30%;
     display: inline-block;
    border: 1px solid black;
     margin: 0 auto;
+    line-height: 6vh;
+}
+.grey-text{
+    color: lightgray;
+}
+.card img{
+    width: 15px;
+    vertical-align: middle;
+}
+.try-free{
+    padding: 10px  5px;
+    background-color: hsl(217deg 100% 50%);
+    color: white;
+    text-decoration-line: none;
+}
+.buy-now{
+    color: blue;
+}
+.blu-check{
+    color: hsl(218deg 100% 52%);
+    font-size: 15px;
 }

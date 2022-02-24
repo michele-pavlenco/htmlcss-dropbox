@@ -74,6 +74,7 @@ header {
 }
 h1 {
   font-size: 60px;
+  margin-bottom: 50px;
 }
 div .jumbotron img {
   width: 60%;
@@ -83,6 +84,17 @@ div .jumbotron img {
 div .text1 {
   text-align: left;
   padding-top: 50px;
+  width: 40%;
+  float: left;
+}
+.try-free1{
+  padding: 10px  5px;
+  background-color: hsl(217deg 100% 50%);
+  color: white;
+  text-decoration-line: none;
+  margin-top: 50px;
+  
+
 }
 .container2{
     margin: 300px auto;
@@ -91,13 +103,30 @@ div .text1 {
     text-align: center;
     font-size: 25px;
 }
+
+
 .card{
     width: (100% / 3);
     margin: 0 auto;
     font-size: 12px;
+    margin-top: 30px;
+}
+.c-head{
+  border-bottom: 1px solid black ;
+
 }
 .card h6{
 font-size: 15px;
+
+}
+.try-type{
+  font-size: 20px;
+  
+}
+.grey-text{
+    color: lightgray;
+    text-align: left;
+    padding-left: 30px;
 }
 .card1{
    width: 30%;
@@ -105,26 +134,30 @@ font-size: 15px;
    border: 1px solid black;
     margin: 0 auto;
     line-height: 6vh;
+    text-align: left;
+    padding-left: 30px;
 }
 .card2{
     width: 30%;
     display: inline-block;
    border: 1px solid black;
     margin: 0 auto;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: 3%;
+    margin-left: 3%;
     line-height: 6vh;
+    text-align: left;
+    padding-left: 30px;
 }
 .card3{
-    width: 30%;
-    display: inline-block;
+  width: 97%;
    border: 1px solid black;
     margin: 0 auto;
     line-height: 6vh;
+    text-align: left;
+    padding-left: 30px;
 }
-.grey-text{
-    color: lightgray;
-}
+
+
 .card img{
     width: 15px;
     vertical-align: middle;
@@ -141,4 +174,12 @@ font-size: 15px;
 .blu-check{
     color: hsl(218deg 100% 52%);
     font-size: 15px;
+
+}
+h5 .selling-office{
+  text-align:  right;
+  padding: 10px  5px;
+  background-color: hsl(217deg 100% 50%);
+  color: white;
+  text-decoration-line: none;
 }

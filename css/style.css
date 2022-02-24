@@ -21,7 +21,7 @@ nav {
 .logo {
   float: left;
   line-height: 70px;
-  width: 20%;
+  width: 10%;
 }
 .logo img {
   vertical-align: text-bottom;
@@ -54,8 +54,12 @@ nav a {
   background-color: hsl(217deg 100% 50%);
   width: 50px;
   height: 30px;
-  margin-left: 10px;
+  margin-left: 60px;
 }
-header {
-  background-color: lightskyblue;
+header section {
+ background-color: hsl(207deg 52% 80%);
+}
+.contain{
+    width: 80%;
+    margin: 0 auto;
 }

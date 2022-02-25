@@ -3,9 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-debug {
-  border: 3px solid black;
-}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -16,10 +14,12 @@ body {
   display: table;
   clear: both;
 }
+/*  Navbar */
 nav {
   position: fixed;
   background-color: rgb(241, 180, 39);
   width: 100%;
+  min-width: 1200px;
 }
 .logo {
   float: left;
@@ -59,6 +59,7 @@ nav a {
   height: 30px;
   margin-left: 60px;
 }
+/* Header */
 header {
   background-color: hsl(207deg 52% 80%);
   padding-bottom: 275px;
@@ -87,99 +88,182 @@ div .text1 {
   width: 40%;
   float: left;
 }
-.try-free1{
-  padding: 10px  5px;
+.try-free1 {
+  padding: 10px 5px;
   background-color: hsl(217deg 100% 50%);
   color: white;
   text-decoration-line: none;
   margin-top: 50px;
-  
-
-}
-.container2{
-    margin: 300px auto;
-}
-.container2{
-    text-align: center;
-    font-size: 25px;
 }
 
-
-.card{
-    width: (100% / 3);
-    margin: 0 auto;
-    font-size: 12px;
-    margin-top: 30px;
+/*  main */
+.container2 {
+  margin: 150px auto;
 }
-.c-head{
-  border-bottom: 1px solid black ;
-
+.container2 {
+  text-align: center;
+  font-size: 25px;
 }
-.card h6{
-font-size: 15px;
-
+/* checkbox */
+.checkbox {
+  text-align: left;
+  margin-top: 50px;
 }
-.try-type{
+/* checkbox 1 */
+#fatturazionemensile {
+  text-align: left;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  cursor: pointer;
+}
+#fatturazionemensile:checked {
+  border: 5px solid hsl(217deg 100% 50%);
+}
+/* checkbox 2 */
+#fatturazioneannuale {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  cursor: pointer;
+}
+#fatturazioneannuale:checked {
+  border: 5px solid hsl(217deg 100% 50%);
+}
+
+/* card */
+.card {
+  width: (100% / 3);
+  margin: 0 auto;
+  font-size: 12px;
+  margin-top: 30px;
+}
+.c-head {
+  border-bottom: 1px solid black;
+}
+.card h6 {
+  font-size: 15px;
+}
+.try-type {
   font-size: 20px;
-  
 }
-.grey-text{
-    color: lightgray;
-    text-align: left;
-    padding-left: 30px;
+.grey-text {
+  color: lightgray;
+  text-align: left;
+  padding-left: 30px;
 }
-.card1{
-   width: 30%;
-    display: inline-block;
-   border: 1px solid black;
-    margin: 0 auto;
-    line-height: 6vh;
-    text-align: left;
-    padding-left: 30px;
+.card1 {
+  width: 30%;
+  display: inline-block;
+  border: 1px solid black;
+  margin: 0 auto;
+  line-height: 6vh;
+  text-align: left;
+  padding-left: 30px;
 }
-.card2{
-    width: 30%;
-    display: inline-block;
-   border: 1px solid black;
-    margin: 0 auto;
-    margin-right: 3%;
-    margin-left: 3%;
-    line-height: 6vh;
-    text-align: left;
-    padding-left: 30px;
+.card2 {
+  width: 30%;
+  display: inline-block;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-right: 3%;
+  margin-left: 3%;
+  line-height: 6vh;
+  text-align: left;
+  padding-left: 30px;
 }
-.card3{
+.card3 {
   width: 97%;
-   border: 1px solid black;
-    margin: 0 auto;
-    line-height: 6vh;
-    text-align: left;
-    padding-left: 30px;
+  border: 1px solid black;
+  margin: 0 auto;
+  line-height: 6vh;
+  text-align: left;
+  margin-top: 30px;
 }
 
+.card img {
+  width: 15px;
+  vertical-align: middle;
+}
+.card3 h5{
+  font-size: 20px;
+}
+.card3 a{
+  float: right;
+  margin-right: 50px;
+}
+.price{
+  font-size: 20px;
+}
 
-.card img{
-    width: 15px;
-    vertical-align: middle;
-}
-.try-free{
-    padding: 10px  5px;
-    background-color: hsl(217deg 100% 50%);
-    color: white;
-    text-decoration-line: none;
-}
-.buy-now{
-    color: blue;
-}
-.blu-check{
-    color: hsl(218deg 100% 52%);
-    font-size: 15px;
-
-}
-h5 .selling-office{
-  text-align:  right;
-  padding: 10px  5px;
+.selling-office {
+  padding: 10px 5px;
+  
   background-color: hsl(217deg 100% 50%);
   color: white;
   text-decoration-line: none;
+  
+}
+/* card buttons */
+.try-free {
+  padding: 10px 5px;
+  background-color: hsl(217deg 100% 50%);
+  color: white;
+  text-decoration-line: none;
+}
+.buy-now {
+  color: blue;
+}
+.blu-check {
+  color: hsl(218deg 100% 52%);
+  font-size: 15px;
+}
+/* dropbox partner */
+
+ 
+.dropboxpartner img{
+  width: 50%;
+  float: left;
+  margin-bottom: 30px;
+}
+.dropboxpartner span{
+  width: 48%;
+  float: right;
+  margin-left: 20px;
+  margin-top: 40px;
+  font-size: 140%;
+  margin-bottom:270px; 
+}
+.dropboxpartner a{
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px 5px;
+  color: black;
+  text-decoration: none;
+}
+.dropbox-buisness{
+  margin-top: 40px;
+}
+.illustrations img{
+  width: 30%;
+  margin: 15px;
+
+  float:left;
+}
+.illustrations-1 img{
+display: block;
+ 
+}
+.debug{
+  border: 1px solid black;
 }

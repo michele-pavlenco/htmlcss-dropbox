@@ -33,7 +33,7 @@ nav ul li {
   list-style-type: none;
   display: inline-block;
 }
-ul li {
+nav ul li {
   display: inline-block;
   color: black;
 }
@@ -235,6 +235,7 @@ div .text1 {
   width: 50%;
   float: left;
   margin-bottom: 30px;
+
 }
 .dropboxpartner span{
   width: 48%;
@@ -271,7 +272,7 @@ display: block;
   border: 1px solid black;
 }
 
-
+/* team dropbox buisness */
 
 .h1-2{
   font-size: 40px;
@@ -280,4 +281,168 @@ display: block;
 }
 .about-our-customers{
   color: hsl(220deg 100% 61%);
+  padding-bottom: 40px;
+}
+/* designit */
+
+ .general{
+   margin-top: 50px;
+ }
+
+.designit{
+  float: left;
+  height: 70vh;
+
+}
+.left-designit{
+  height: 35vh;
+  width: 35vw;
+}
+.left-designit img{
+  width: 50%;
+  height: 100%;
+  padding: 40px;
+  background-size: contain;
+
+}
+svg{
+  filter: invert(1);
+}
+.left-designit1{
+  background-color:hsl(112deg 39% 72%) ;
+  border: 10px solid hsl(112deg 40% 86%);
+  
+}
+.left-designit2{
+  background-color:hsl(337deg 83% 21%);
+ 
+}
+.left-designit3{
+  background-color:hsl(197deg 100% 40%) ;
+  vertical-align:middle;
+}
+.left-designit4{
+  background-color:hsl(0deg 100% 55%);
+  vertical-align:middle;
+}
+.center-designit img{
+  width: 200px;
+  padding-left: 30px;
+  text-align: left;
+  margin-bottom:60px ;
+  margin-top: 40px;
+}
+  
+.center-designit{
+  width: 30%;
+  padding-left: 30px;
+  text-align: left;
+  font-size: 20px;
+  background-color: white;
+}
+.center-designit p{
+  height: 35vh;
+  overflow-y: auto;
+
+}
+  
+
+.right-designit{
+  height: 35vh;
+  width: 35vw;
+}
+.right-designit img{
+  width: 50%;
+  height: 100%;
+  padding: 40px;
+
+  background-size: contain;
+}
+.right-designit1{
+  background-color: hsl(352deg 99% 42%);
+}
+.right-designit2{
+  background-color: hsl(207deg 52% 80%);
+}
+.right-designit3{
+  background-color: hsl(228deg 82% 28%);
+  
+}
+.right-designit4{
+  background-color: hsl(48deg 100% 59%);
+}
+
+
+
+.add-Dropbox-business{
+  background-color: hsl(207deg 52% 80%);
+
+}
+.Dropbox-business2 h2{
+  float: left;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  font-size: 45px;
+  color: hsl(336deg 77% 22%);
+
+}
+.Dropbox-business2 a{
+  float: left;
+  margin-top: 150px;
+  font-size: 20px;
+  margin-left: 140px;
+  background-color: white;
+    padding: 5px 100px;
+    color: black;
+    text-decoration: none;
+
+}
+.qea{
+  line-height: 6em;
+}
+.qea h2{
+  font-size: 40px;
+}
+.qea p{
+  float: left;
+  width: 90%;
+  border-top: 1px solid hsl(240deg 3% 93%);
+  border-bottom:1px solid hsl(240deg 3% 93%) ;
+}
+.qea a{
+  float: left;
+  width: 10%;
+  font-size: 40px;
+  border-top: 1px solid hsl(240deg 3% 93%);
+}
+
+.black-background{
+  background-color: black;
+  height: 70vh;
+  color: white;
+  margin-top: 80px;
+}
+.end-list{
+  float: left;
+  margin-right: 80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  
+
+}
+.end-list h3{
+  line-height: 3em;
+  
+  
+}
+.end-list ul {
+  line-height: 2em;
+  list-style-type: none;
+  
+}
+.language{
+  padding-top: 40px;
+  border-top: 2px solid hsl(0deg 0% 56%);
+  width: 10%;
+ 
 }

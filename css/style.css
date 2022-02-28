@@ -35,6 +35,14 @@ nav ul li {
   display: inline-block;
   
   list-style-type: none;
+<<<<<<< HEAD
+=======
+  display: inline-block;
+}
+nav ul li {
+  display: inline-block;
+  color: black;
+>>>>>>> origin/main
 }
 nav .nav-left {
   float: left;
@@ -442,18 +450,25 @@ svg{
   border-top: 1px solid hsl(240deg 3% 93%);
   border-bottom:1px solid hsl(240deg 3% 93%) ;
 }
+<<<<<<< HEAD
 .qea i{
+=======
+.qea a{
+>>>>>>> origin/main
   float: left;
   width: 10%;
   font-size: 40px;
   border-top: 1px solid hsl(240deg 3% 93%);
 }
+<<<<<<< HEAD
 .qea-hover{
   display: none;
 } 
 .qea-hover:hover{
   display: block;
 }
+=======
+>>>>>>> origin/main
 
 .black-background{
   background-color: black;
